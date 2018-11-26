@@ -1,0 +1,81 @@
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+} 
+
+.clearfix:after {
+	clear: both;
+}
+body {
+  background-color: #eeeeee;
+  margin: 0px;
+  font-family: 'Open Sans', arial;
+}
+.header {
+  background-color: #D9072D;
+  color: #fff;
+}
+.header .text {
+  font-size: 65px;
+  line-height: 1em;
+  font-weight: 800;
+  text-align: center;
+}
+.navi {  
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.navi ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navi ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+.navi ul li {
+  float: left; 
+}
+.navi ul li i {
+  font-size: 20px;
+}
+.content {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.content .ticker {
+  margin: 10px 0px;
+}
+.content .ticker .teaser {
+  background-color: #D95578;
+  color: #fff;
+  float: left; 
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.content .ticker .line {
+  background-color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+  overflow: hidden;
+  border-right: solid 15px #fff;
+  height: 40px;
+}
+
+.content .ticker .line .inner {
+  position: relative;
+  width: 10000px;
+  margin: 0px 0px;
+}
+
+.content .ticker .line .inner div {
+  float: left;
+  padding: 10px 10px;
+  width: 999px;
+}
